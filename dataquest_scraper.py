@@ -12,7 +12,7 @@ def make_csv(filename, lst):
     with open(filename, 'w') as f:
         [f.write(a + '\n') for a in lst]
 
-make_csv('la_weather.csv', scraper('test.html'))
+make_csv('spell_final_test.txt', scraper('test.html'))
 
 
 # # enter below to grab it as a list
